@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Concat
+{
+    static void concatination(StringBuilder str1, StringBuilder str2)
+    {
+       StringBuilder s;
+       s = str1.append(str2);
+       System.out.println("concated string is:" +s); 
+    }
+    public static void main(String[] args) 
+    { 
+        Scanner sc = new Scanner(System.in);
+        StringBuilder s1 = new StringBuilder();
+        StringBuilder s2 = new StringBuilder();
+        String b = s1.toString();
+        String a = s2.toString();
+        System.out.println("enter string 1"); 
+        a = sc.nextLine();
+        System.out.println("enter string 2"); 
+        b = sc.nextLine();
+        concatination(s1,s2); 
+    }
+    
+}
