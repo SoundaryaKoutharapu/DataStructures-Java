@@ -18,6 +18,6 @@ public class ElectricityBill
         System.out.println("enter unit price");
         int unit_price = sc.nextInt();
         System.out.println(bill(wph,unit_price));
-
+        sc.close();
     }
 }

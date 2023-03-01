@@ -44,5 +44,6 @@ public class Concat
         
  
         System.out.println("concated string is:" +c.concat(s1,s2));
+        sc.close();
     }
 }

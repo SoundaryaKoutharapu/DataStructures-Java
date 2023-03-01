@@ -31,5 +31,6 @@ public class distanceBtTwo
         int y2 = sc.nextInt();
 
         System.out.println(distance(x1,x2,y1,y2));
+        sc.close();
     }
 }

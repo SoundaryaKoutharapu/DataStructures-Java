@@ -11,7 +11,7 @@ public class HCFofNUM
         System.out.println("enter num-2");
         int b = sc.nextInt();
         System.out.println(hcf(a,b));
-
+        sc.close();
     }
 
    static int hcf(int a, int b) 

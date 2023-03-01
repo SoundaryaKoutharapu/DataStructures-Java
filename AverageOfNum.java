@@ -27,5 +27,6 @@ public class AverageOfNum
               arr[i] = sc.nextInt();
            }
            System.out.println(average(arr,n));
+           sc.close();
        }
 }

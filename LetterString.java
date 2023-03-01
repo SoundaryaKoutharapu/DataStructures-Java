@@ -22,5 +22,6 @@ public class LetterString
         System.out.println("enter no. of splits");
         int n = sc.nextInt();
         substring(str,n);
+        sc.close();
     }
 }

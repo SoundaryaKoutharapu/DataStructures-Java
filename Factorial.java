@@ -21,7 +21,7 @@ public class Factorial
         System.out.println("enter n value");
        int n = sc.nextInt();
         System.out.println(fact(n));
-
+        sc.close();
     }
 
 }

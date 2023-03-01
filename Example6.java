@@ -12,6 +12,7 @@ public class Example6
                                                  System.out.println(c);
                                               } */
          palindrome(s);
+         sc.close();
    }
 
 

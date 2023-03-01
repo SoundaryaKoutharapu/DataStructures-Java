@@ -10,6 +10,6 @@ public class Example3
         System.out.println(s);
          Integer.toString(n);
          System.out.println(n);
-        
+        sc.close();
     }
 }

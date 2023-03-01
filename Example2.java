@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class Example2
@@ -24,5 +23,6 @@ public class Example2
       System.out.println("enter h value");
       int h = sc.nextInt();
       method(b,h);
+      sc.close();
     }
 }

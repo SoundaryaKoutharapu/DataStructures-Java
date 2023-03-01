@@ -29,9 +29,13 @@ public static void main(String[] args)
            default:
                    System.out.println("invalid choice");
         }
+
         System.out.println("do you want to continue.? 1.Yes 2. No");
         con = sc.nextInt();
-    }while (con==1);
+
+    }
+    
+    while (con==1);
 }
 }
             class Methods

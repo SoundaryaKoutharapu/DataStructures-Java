@@ -36,7 +36,7 @@ public class DuplicateElements
              
         }     
         removeduplicate(array, n);
-
+        sc.close();
      }
 
 }

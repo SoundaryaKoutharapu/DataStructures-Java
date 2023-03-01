@@ -19,6 +19,7 @@ public class Example4
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
         System.out.print(findDay(n, n1, n2));
+        sc.close();
     }
         
 }

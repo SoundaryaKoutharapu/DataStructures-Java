@@ -10,6 +10,7 @@ public class Example5
         add(s1,s2);
         uppercase(s1,s2);
         compare(s1,s2);
+        sc.close();
     }
 
     private static void compare(String s1, String s2) 
@@ -34,5 +35,6 @@ public class Example5
     {
         String sum = s1+s2;
         System.out.println(sum.length());
+        
     }
 }

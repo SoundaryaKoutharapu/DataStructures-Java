@@ -25,7 +25,7 @@ public class Box
          double w = sc.nextDouble();
 
          System.out.println("The volume of box is:"+ c.method(w,h,b));
-         
+         sc.close();
          
     }
 }

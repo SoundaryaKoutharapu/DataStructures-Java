@@ -72,7 +72,7 @@ public class CommonChar
      String s2= sc.nextLine();
     
      System.out.println(cmnchar(s1, s2));
-
+sc.close();
    }
 }
 

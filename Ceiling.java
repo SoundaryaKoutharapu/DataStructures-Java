@@ -40,5 +40,6 @@ public class Ceiling
         System.out.println("enter target num:");
         int target = sc.nextInt();
         System.out.println(ceil(arr,target));
+        sc.close();
     }
 }

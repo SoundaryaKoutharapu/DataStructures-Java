@@ -16,5 +16,6 @@ public class Discount
         System.out.println("enter rate of discount");
         int rateofdis = sc.nextInt();
         System.out.println(disc(price,rateofdis));
+        sc.close();
     }
 }
