@@ -1,3 +1,5 @@
+// Counting the no. of numbers in a number
+// return the number if the count is even
 package dsa_searching;
 
 public class Even_digits 

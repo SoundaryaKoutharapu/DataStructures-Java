@@ -1,3 +1,4 @@
+// Finding the Mininmum element in an array using linera search
 package dsa_searching;
 
 import java.util.Scanner;
